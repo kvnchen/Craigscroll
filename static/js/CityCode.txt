@@ -31,7 +31,7 @@ Denver					DEN
 Des Moines				DSM
 El Paso					ELP
 Fresno					FAT
-Grand Rapids			GRR
+Grand Rapids			        GRR
 Greensboro				GSO
 Greer					GSP
 Harlingten				HRL
