@@ -1,0 +1,260 @@
+
+.containerSmall {
+    background:url('../images/elements/hp_image_bg.png');
+    z-index:-1;
+}
+
+.small .header {
+    height:35px;
+    color:#494949;
+    font-size:16px;
+    line-height:16px;
+    font-weight:bold;
+    position:absolute;
+    top:330px;
+    width:272px;
+    left:10px;
+    overflow:hidden;
+}
+
+.small .bodyText{
+    position:absolute;
+    color:#945858;
+    font-size:16px;
+    line-height:18px;
+    font-weight:bold;
+    overflow:hidden;
+    height:300px;
+    width:272px;
+    left:10px;
+	top:-10px;
+	overflow:hidden;
+	white-space:pre-wrap;
+}
+
+.small .imageContainer {
+    position:absolute;
+    height:300px;
+    width:272px;
+    left:10px;
+    top:10px;
+    overflow:hidden;
+}
+
+.small .bodyImage{
+    image-rendering:auto;
+    height:100%;
+    max-height:300px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+}
+
+.placeHolderContainer {
+    display:block;
+    z-index:12;
+    position:fixed;
+}
+
+.placeHolderBack {
+    position:absolute;
+    top:-5px;
+    left:-5px;
+    -webkit-backface-visibility:hidden;
+    overflow:hidden;
+    background:white;
+    -webkit-box-shadow:0px 0px 10px 5px #aaa;
+    color:#945858;
+    font-size:16px;
+    line-height:18px;
+    font-weight:bold;
+	z-index:12;
+}
+
+.placeHolderFront {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform: rotateY(180deg);
+	position:absolute;
+	top:-5px;
+	z-index:12;
+}
+
+
+
+.big.clickField {
+    opacity:0;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+.containerBig {
+	background:white;
+    background-size:100% auto;
+    width:654px;
+    position:fixed;
+    -webkit-box-shadow:0px 0px 10px 5px #aaa;
+    
+}
+
+.bigHeader {
+	height:50px;
+	width:674px;
+    top:20px;
+    left:20px;
+    position:absolute;
+}
+
+.headerPrice {
+	font-weight:bold;
+	font-size:24px;
+	color:#222222;
+	text-align:right;
+    width:50px;
+    left:550px;
+    position:absolute;
+    top:12px;
+	font-family:helvetica;
+}
+
+.headerTitle {
+	font-weight:bold;
+	font-size:22px;
+	color:#222222;
+	text-align:left;
+    width:540px;
+    position:absolute;
+	font-family:helvetica;
+}
+
+.big.imageArea {
+	left:4px;
+	width:645px;
+	position:absolute;
+}
+
+.big.mainImageArea {
+	width:606px;
+	top:25px;
+	left:19px;
+	position:absolute;
+	background:white;
+	overflow:hidden;
+}
+
+.big.mainImage {
+	height:100%;
+	max-width:606px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	image-rendering:auto;
+}
+
+
+.big.backArrow {
+	background:url('../images/elements/singlePost_arrow_left.png');
+	left:23px;
+	width:15px;
+	height:19px;
+	position:absolute;
+    opacity:0.5;
+}
+
+.big.smallImageArea {
+    height:100px;
+    width:100px;
+    position:absolute;
+    background:white;
+    overflow:hidden;
+}
+
+.big.smallImage {
+    display:block;
+    image-rendering:auto;
+    height:100%;
+	max-width:100px;
+	max-height:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.big.forwardArrow {
+	background:url('../images/elements/singlePost_arrow_right.png');
+	width:15px;
+	height:19px;
+	left:600px;
+	position:absolute;
+    opacity:0.5;
+}
+
+.big.divider {
+	height:2px;
+	width:639px;
+	background:url('../images/elements/singlePost_line.png');
+    position:absolute;
+    left:7px;
+}
+
+.big.textArea {
+	left:28px;
+	width:597px;
+	position:absolute;
+	color:#515151;
+	font-size:14px;
+	white-space: pre-wrap;
+	overflow:hidden;
+	font-family:helvetica regular;
+    background:white;
+    font-weight:700;
+}
+
+.big.readMore {
+	color:#1e74ab;
+	font-size:14px;
+	left:28px;
+	width:600px;
+	height:15px;
+	position:absolute;
+	font-family:helvetica;
+    font-weight:700;
+}
+
+.big.infoArea {
+	left:28px;
+	width:600px;
+	position:absolute;
+	color:#515151;
+	font-size:14px;
+	white-space: pre-wrap;
+	font-family:"helvetica regular";
+    line-height:20px;
+    font-weight:800;
+}
+
+.big.fullImageArea {
+    background:black;
+    position:fixed;
+    z-index:15;
+    top:0px;
+    left:0px;
+}
+
+.big.fullImage {
+    display:block;
+    image-rendering:auto;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.unselect {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+}
+
+body.big-open {
+    overflow:hidden;
+}

@@ -1,0 +1,115 @@
+Washington				WAS
+Philadelphia			PHL
+Boston					BOS
+Detroit					DET
+Seattle					SEA
+Akron					CAK
+Albany					ALB
+Albuquerque				ABQ
+Allentown				ABE
+Atlanta					ATL
+Augusta					AGS
+Austin					ATN
+Bakersfield				BFL
+Baltimore				BWI
+Baton Rouge				BTR
+Birmingham				BHM
+Boise					BOI
+Sarasota				SRQ
+Buffalo					BUF
+Camden					PHI
+Charleston				CHS
+Charlotte				CLT
+Chattanooga				CHA
+Cincinnati				CIN
+Cleveland				CLE
+Colorado Springs		COS
+Columbia				CAE
+Columbus				CMH
+Dayton					DAY
+Denver					DEN
+Des Moines				DSM
+El Paso					ELP
+Fresno					FAT
+Grand Rapids			GRR
+Greensboro				GSO
+Greer					GSP
+Harlingten				HRL
+Harrisburg				HAR
+Honolulu				HNL
+Houston					HOU
+Indianapolis			IPL
+Jackson					MKL
+Jacksonville			JAX
+Kansas City				MCI
+Knoxville				TYS
+Lancaster				LNS
+Lansing					LAN
+Las Vegas				LAS
+Little Rock				LIT
+Louisville				SDF
+Madison					MSN
+Memphis					MEM
+Milwaukee				MKE
+Minneapolis				MSP
+Modesto					MOD
+Nashville				BNA
+New Haven				HVN
+New Orleans				MSY
+Newburgh				SWF
+Norfolk					ORF
+Oklahoma City			OKC
+Omaha					OMA
+Orlando					ORL
+Phoenix					PHX
+Pittsburgh				PIT
+Fayetteville			FYV
+Portland				PDX
+Providence				PVD
+Raleigh					RDU
+Richmond				RIC
+Rochester				ROC
+Sacramento				SAC
+Salt Lake City			SLC
+San Antonio				SAT
+San Diego				SAN
+San Jose				SJC
+Santa Rosa				STS
+Wilkes-Barre			AVP
+Springfield				SPI
+St Louis				STL
+Syracuse				SYR
+Tampa					TPA
+Toledo					TOL
+Tucson					TUS
+Tulsa					TUL
+Wichita					ICT
+Wilmington				ILM
+Hartford				BDL
+Abilene					ABI
+Alexandria				AEX
+Altoona					AOO
+Amarillo				AMA
+Ames					AMW
+Anchorage				ANC
+Anniston				ANB
+Appleton				ATW
+Asheville				AVL
+Athens					AHN
+Auburn					AUO
+Bangor					BAN
+Beaumont				BPT
+Beckley					BKW
+Bellingham				BLI
+Benton Harbor			BEH
+Billings				BIL
+Binghamton				BGM
+Bismarck				BIS
+Bloomington				BMG
+Bristol					TRI
+Brownsville				BRO
+Burlington				BTV
+Cape Girardeau			CGI
+Casper					CPR
+Cedar Rapids			CID
+Champaign				CMI

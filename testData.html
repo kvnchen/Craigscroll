@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+		
+	<title>Data Mining</title>
+	
+	<link rel="stylesheet" type="text/css" href="3rdParty/lib/jasmine.css">
+	<!-- javascript -->	
+	<script type="text/javascript" src="3rdParty/spin.js"></script>
+	
+	<script type="text/javascript" src="3rdParty/jquery.js"></script>
+	<script type="text/javascript" src="3rdParty/json.js"></script>
+	
+	<script type="text/javascript" src="3rdParty/lib/jasmine.js"></script>
+	<script type="text/javascript" src="3rdParty/lib/jasmine-html.js"></script>
+	
+	<script type="text/javascript" src="3rdParty/3taps.js"></script>
+	<script type="text/javascript" src="3rdParty/3tapsSpec.js"></script>
+	
+	<script type="text/javascript" src="static/js/3tapsTesting.js"></script>
+
+</head>
+
+<p id="p1"> Call me Maybe? </p>
+<h1 id="myHeader">sup son</h1>
+<!-- onClick="getValue()" -->
+
+<body>
+	
+	<script type="text/javascript">
+	var control = 0;
+	var opts = {
+		  lines: 9, // The number of lines to draw
+		  length: 7, // The length of each line
+		  width: 4, // The line thickness
+		  radius: 10, // The radius of the inner circle
+		  rotate: 0, // The rotation offset
+		  color: '#000', // #rgb or #rrggbb
+		  speed: 1, // Rounds per second
+		  trail: 60, // Afterglow percentage
+		  shadow: false, // Whether to render a shadow
+		  hwaccel: false, // Whether to use hardware acceleration
+		  className: 'spinner', // The CSS class to assign to the spinner
+		  zIndex: 2e9, // The z-index (defaults to 2000000000)
+		  top: 'auto', // Top position relative to parent in px
+		  left: 'auto' // Left position relative to parent in px
+		};	
+	
+	
+	var target = document.getElementById('myHeader');
+	console.log(target);
+	var spinner = new Spinner(opts);
+	console.log(spinner);
+	spinner.spin(target); 
+
+	function getValue() {
+		var target = document.getElementById('myHeader');
+		if (control == 0) {
+			console.log("start spinning");
+			spinner.spin(target);
+			console.log(target);
+			console.log(spinner);
+			control = 1;
+		}
+		else {
+			console.log("stop spinning");
+			control = 0;
+			spinner.stop(target);
+		//target.appendChild(spinner.el);
+		}
+	}
+	
+	//getValue();
+	</script>
+	
+	
+	<!-- jquery test successful -->
+	<a href="http://jquery.com/">jQuery</a>
+	<script>
+      $(document).ready(function(){
+		$("a").click(function(event){
+		//event.preventDefault();
+		$(this).hide("slow");
+		});
+	});
+    </script>	
+	
+	<!-- Below links for 3taps urls -->
+	<!--
+	<a href="http://api.3taps.com/search?source=CRAIG&location=SFO&authID=4fa64nrrfzuw6w5y82g4r9kx">SFO Craigslist Postings</a> <br />
+	<a href="http://api.3taps.com/reference/location?authID=4fa64nrrfzuw6w5y82g4r9kx"> List of locations </a>
+	-->
+	
+	<div id="header"></div>
+    <div id="content"></div>
+    <div id="footer"></div>
+    <div id="alert">
+    </div>
+</body>
+</html>

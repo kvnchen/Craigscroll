@@ -1,0 +1,290 @@
+body {
+	margin: 0; 
+    padding: 20px 0 0;
+    font-family: helvetic;
+    height: 100%;
+    width:960px;
+    max-width:960px;
+}
+
+header{
+    color: #333;
+    padding: 20px 0 0;
+    height: 100%;
+}
+
+.canvas {
+}
+
+.containerSearch{
+    display:block;
+    image-rendering:auto;
+    position:fixed;
+    z-index:10;
+    height:99px;
+    background:url('../images/elements/Navi_bg.png');
+}
+
+.search .logo{
+    display:block;
+    image-rendering:auto;
+    position:absolute;
+    background:white;
+    top:10px;
+    left:13px;
+}
+
+.search .secondBar{
+    height:20px;
+    position:absolute;
+    top:35px;
+    z-index:9;
+}
+
+.search .searchBar {
+    position:absolute;
+    width:1000px;
+    height:35px;
+    left:280px;
+    z-index:13;
+    background:url('../images/elements/Navi_searchBar_mid.png');
+}
+
+.search .sortByArea{
+    position:absolute;
+    width:110px;
+    height:35px;
+    left:10px;
+    top:5px;
+    font-size:16px;
+    line-height:25px;
+    white-space:pre;
+    font-weight:bold;
+}
+
+.search.areaBox{
+	position:absolute;
+	top:40px;
+	left:10px;
+	font-size: 14px;
+	color:#545454;
+	background:white;
+    -webkit-box-shadow:0px 0px 10px 3px #aaa;
+    overflow:auto;
+}
+
+.areaBox.countryTab{
+    position:absolute;
+    height:50px;
+}
+
+.countryTab.countryName{
+    font-family:Times New Roman;
+    font-size: 40px;
+    color:#222222;
+    position:absolute;
+    line-height:50px;
+    
+}
+
+.areaBox.locationBox{
+    position:absolute;
+    top:50px;
+}
+
+.areaBox.bigDivider{
+    height:1px;
+    position:absolute;
+    top:50px;
+    left:3px;
+    background:url('../images/elements/menu_line_grayLong.png');
+}
+
+.areaBox.divider{
+    height:1px;
+    width:300px;
+    background:url('../images/elements/menu_line_grayShort.png');
+    position:absolute;
+}
+
+.areaBox.stateName{
+    font-family:Helvetica;
+    font-weight:bold;
+    font-size:14px;
+    color:#545454;
+    width:300px;
+    height:15px;
+    line-height:14px;
+    position:absolute;
+}
+
+.areaBox.cityName{
+    font-family:Helvetica;
+    font-size:14px;
+    color:#545454;
+    width:300px;
+    height:15px;
+    line-height:14px;
+    position:absolute;
+    font-weight:500;
+}
+
+.areaBox.cityName:hover{
+    color:#1e74ab;
+}
+
+
+.search .text {
+    position:absolute;
+    top:10px;
+    left:130px;
+    font-size:12px;
+    font-weight:bold;
+    color:#222222;
+    font-family:helvetica;
+}
+
+.search .about {
+	position:absolute;
+	width:75px;
+	height:30px;
+	top:10px;
+	text-align:center;
+	left: 1350px;
+	font-size:16px;
+	font-weight:bold;
+	color:#757575;
+
+}
+
+.search .category{
+    position:absolute;
+    z-index:11;
+    background:url('../images/elements/Navi_searchBar_left.png');
+    height:35px;
+    width:117px;
+    left:-105px;
+    font-size:13px;
+    color:#757575;
+    line-height:34px;
+    text-align:center;
+    font-family:helvetica, serif;
+	overflow: hidden;
+}
+
+.search .catText{
+	position:absolute;
+	left: 3px;
+	width:90px;
+
+}
+
+.search .triangle{
+	position:absolute;
+	z-index: 12;
+	left: 93px;
+	top: 15px;
+
+}
+
+.search .categoryBox{
+	position:absolute;
+	background:url('../images/elements/menu_bgNew.png');
+	z-index: 13;
+	top: 27px;
+	left:-118px;
+	height: 644px;
+	width: 869px;
+	font-size:14px;
+	color:#545454;
+	text-align:left;
+}
+
+.search .catMenuLeft{
+	position:absolute;
+	z-index: 13;
+	left: 25px;
+	top: 20px;
+	width: 220px;
+	height: 480px;
+	font-size:16px;
+	color:#545454;
+	text-align:left;
+
+}
+
+.search .navTriangleRight{
+	position:absolute;
+	visibility:hidden;
+	left: 180px;
+
+}
+
+.search .catMenuRight{
+	position:absolute;
+	z-index: 13;
+	left: 240px;
+	top: 20px;
+	width: 160px;
+	height: 640px;
+	font-size:16px;
+	color:#545454;
+	text-align:left;
+	
+}
+
+.search .entry{
+    line-height:14px;
+	font-size:14px;
+	position:absolute;
+	z-index:11;
+    height:20px;
+    left:15px;
+    top:8px;
+    border:none;
+}
+
+.search .button {
+    position:absolute;
+    z-index:11;
+    background:url('../images/elements/Navi_searchBar_right.png');
+    width:50px;
+    height:35px;
+}
+
+.search .thirdBar {
+    position:absolute;
+    top:75px;
+    height:14px;
+}
+
+.search .mainArea {
+    position:absolute;
+    left:13px;
+    font-size:14px;
+    color:#222222;
+    height:14px;
+    line-height:14px;
+    font-weight:bold;
+}
+
+.search .location {
+    position:absolute;
+    font-size:14px;
+    color:#222222;
+    height:14px;
+    line-height:14px;
+}
+
+.click {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+}
+
+.click:before{
+}
+
+.click:hover{
+	cursor:pointer;
+}
